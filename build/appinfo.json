@@ -1,0 +1,35 @@
+{
+    "versionLabel": "1.0", 
+    "projectType": "rocky", 
+    "name": "watch-sued", 
+    "messageKeys": {
+        "ControlKeyResetRequest": 1, 
+        "ControlKeyUnsupportedError": 4, 
+        "ControlKeyChunk": 3, 
+        "ControlKeyResetComplete": 2
+    }, 
+    "companyName": "MakeAwesomeHappen", 
+    "enableMultiJS": true, 
+    "sdkVersion": "3", 
+    "capabilities": [], 
+    "appKeys": {
+        "ControlKeyResetRequest": 1, 
+        "ControlKeyUnsupportedError": 4, 
+        "ControlKeyChunk": 3, 
+        "ControlKeyResetComplete": 2
+    }, 
+    "watchapp": {
+        "watchface": true
+    }, 
+    "longName": "watch-sued", 
+    "displayName": "watch-sued", 
+    "shortName": "watch-sued", 
+    "main": {
+        "rockyjs": "src/rocky/index.js", 
+        "pkjs": "src/pkjs/index.js"
+    }, 
+    "resources": {
+        "media": []
+    }, 
+    "uuid": "14da1eb7-bfb6-4bb8-b7e7-0fbe11454bee"
+}
